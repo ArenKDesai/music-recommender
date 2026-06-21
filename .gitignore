@@ -1,0 +1,10 @@
+*.zip
+*.csv
+*.parquet
+*.xlsx
+*.xls
+spotify_million_playlist_dataset
+
+# Added by cargo
+
+/target
