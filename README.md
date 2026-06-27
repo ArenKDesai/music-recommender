@@ -6,6 +6,11 @@ You'll need the Spotify Million Playlist Dataset. Read through [this website](ht
 
 The paper this project is based on is [An Analysis of Approaches Taken in the ACM RecSys Challenge 2018 for Automatic Music Playlist Continuation](https://dl.acm.org/doi/abs/10.1145/3344257) by Zamani et al. Specifically, it is the two-stage model by team **vl6** detailed in [Two-stage Model for Automatic Playlist Continuation at Scale](https://dl.acm.org/doi/abs/10.1145/3267471.3267480) by Volkovs et al. 
 
+### Notes on AI
+I currently don't use AI to generate any code. I write it all by hand. I sometimes run Claude Code to check my code for errors or suggestions.
+
+If you do want to use AI, at least make sure you have a good harness in an AGENTS.md or something. 
+
 ## TODO
 1. implement the recommendation system in the whitepaper in a jupyter notebook
 2. save that model into either weights that can be loaded and ran in Rust (webgpu?), or a callable API
