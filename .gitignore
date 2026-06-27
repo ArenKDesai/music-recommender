@@ -8,3 +8,5 @@ spotify_million_playlist_dataset
 .venv
 *.npz
 /target
+*.db
+*.db-journal
